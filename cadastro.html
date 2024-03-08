@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <h3>Me conte um pouco sobre você</h2>
+        </div>
+        <form id="form">
+            <div class="dados">
+                <label for="name">Nome:</label>
+                <input type="text" placeholder="Ex: Maria Edurada" required="Campo obrigatório*" name="name">
+            </div>
+            <div class="dados">
+                <label for="music">Música Favorita:</label>
+                <input type="text" placeholder="Ex: Um amor puro, Djavan" required="Campo obrigatório*" name="music">
+            </div>
+            <div class="dados">
+                <label for="book">Livro favorito:</label>
+                <input type="text"  placeholder="Ex:Vamos fala de amor, bell hooks" required="Campo obrigatório*" name="book">
+            </div>
+            <div class="dados">
+                <label for="dream">Um sonho:</label>
+                <input type="text"  placeholder="Ex: Mergulhar com baleias" required="Campo obrigatório*" name="dream">
+            </div>
+
+            <div id="buttonn">
+                <input type="submit" class="button" onclick="Enviar();" value="Enviar" />        </form>
+                <input type="submit" class="button" onclick="Enviar();" value="Editar" />        </form>
+                <input type="submit" class="button" onclick="Enviar();" value="Apagar" />        </form>
+            </div>
+           
+            
+    </div>
+</body>
+</html>

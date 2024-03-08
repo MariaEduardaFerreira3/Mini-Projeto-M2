@@ -1,0 +1,120 @@
+
+
+
+body{
+    background: linear-gradient(90deg, #98FB98 0%, #BA55D3 100%);
+    display: flex;
+    justify-content: center;
+    margin-top: 9%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#header{
+    background: linear-gradient(90deg, #98FB98 0%, #BA55D3 100%);
+    width: 500px;
+    height: 70px;
+    padding: 20px;
+    font-size: larger;
+}
+
+#container {
+    background-color:beige;
+    width: 500px;
+    height: 550px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2px;
+    
+}
+
+
+.dados {
+    width: 360px;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.dados label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.dados input {
+    border: 2px solid;
+    display: block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px;
+    border-color: #eee;
+}
+
+.button {
+    background: linear-gradient(90deg, #98FB98 0%, #BA55D3 100%);
+    width: 25%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: #BA55D3;   
+}
+
+.button:hover{
+    background-color: rgb(254, 254, 254);
+    color: rgb(6, 6, 6);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 450px) {
+        #header {
+        height: auto;
+        width: auto;
+        justify-content: center;
+        align-items: center;
+        font-size:medium;       
+    }
+
+    #container {
+    background-color:beige;
+    width: 350px;
+    height: 600px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size:medium;       
+    }
+
+    .dados {
+        width: 250px;
+        height: 35px;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
+        position: relative;
+        margin-left: 50px;
+        margin-top: 20px;
+        font-size:medium;       
+    }
+
+    .button {
+        background: linear-gradient(90deg, #98FB98 0%, #BA55D3 100%);
+        width: 30%;
+        height: 30px;
+        margin-top: 20px;
+        border-radius: 10px;
+        border: #BA55D3;   
+        font-size:medium;       
+    }    
+
+
+}
