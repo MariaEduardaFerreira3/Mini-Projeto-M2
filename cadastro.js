@@ -45,11 +45,11 @@ function renderizarDados() {
 }
 
 function editarSobre(index) {
-  const minhoca = sobre[index];
-  document.getElementById("nome").value = minhoca.nome;
-  document.getElementById("musica").value = minhoca.musica;
-  document.getElementById("livro").value = minhoca.livro;
-  document.getElementById("sonho").value = minhoca.sonho;
+  const editar = sobre[index];
+  document.getElementById("nome").value = editar.nome;
+  document.getElementById("musica").value = editar.musica;
+  document.getElementById("livro").value = editar.livro;
+  document.getElementById("sonho").value = editar.sonho;
   sobre.splice(index, 1);
   renderizarDados();
 }
