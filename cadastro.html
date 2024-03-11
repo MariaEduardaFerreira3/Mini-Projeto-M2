@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <link rel="stylesheet" href="cadastro.css">
 </head>
+
 <body>
     <div id="container">
         <div id="header">
@@ -14,28 +16,42 @@
         <form id="form">
             <div class="dados">
                 <label for="name">Nome:</label>
-                <input type="text" placeholder="Ex: Maria Edurada" required="Campo obrigatório*" name="name">
+                <input type="text" id="nome" placeholder="Ex: Maria Edurada" required="Campo obrigatório*" name="name">
             </div>
             <div class="dados">
                 <label for="music">Música Favorita:</label>
-                <input type="text" placeholder="Ex: Um amor puro, Djavan" required="Campo obrigatório*" name="music">
+                <input type="text" id="musica" placeholder="Ex: Um amor puro, Djavan" required="Campo obrigatório*"
+                    name="music">
             </div>
             <div class="dados">
                 <label for="book">Livro favorito:</label>
-                <input type="text"  placeholder="Ex:Vamos fala de amor, bell hooks" required="Campo obrigatório*" name="book">
+                <input type="text" id="livro" placeholder="Ex:Vamos fala de amor, bell hooks"
+                    required="Campo obrigatório*" name="book">
             </div>
             <div class="dados">
                 <label for="dream">Um sonho:</label>
-                <input type="text"  placeholder="Ex: Mergulhar com baleias" required="Campo obrigatório*" name="dream">
+                <input type="text" id="sonho" placeholder="Ex: Mergulhar com baleias" required="Campo obrigatório*"
+                    name="dream">
             </div>
 
             <div id="buttonn">
-                <input type="submit" class="button" onclick="Enviar();" value="Enviar" />        </form>
-                <input type="submit" class="button" onclick="Enviar();" value="Editar" />        </form>
-                <input type="submit" class="button" onclick="Enviar();" value="Apagar" />        </form>
-            </div>
-           
-            
+                <input type="submit" class="button">
+        </form>
+
     </div>
+    <div>
+        <ul id="dadosSobre">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+    </div>
+
+
+    </div>
+    <script src="cadastro.js"></script>
 </body>
+
 </html>
